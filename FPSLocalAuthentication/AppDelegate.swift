@@ -3,7 +3,7 @@
 //  FPSLocalAuthentication
 //
 //  Created by echolush on 7/17/14.
-//  Copyright (c) 2014 Matt Ozer. All rights reserved.
+//  Copyright (c) 2014 Matt Ozer. All rights reserved
 //
 
 import UIKit

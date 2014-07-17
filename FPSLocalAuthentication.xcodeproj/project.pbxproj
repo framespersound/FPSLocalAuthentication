@@ -12,6 +12,7 @@
 		7BB06CFA197835F400A44649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB06CF8197835F400A44649 /* Main.storyboard */; };
 		7BB06CFC197835F400A44649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB06CFB197835F400A44649 /* Images.xcassets */; };
 		7BB06D08197835F400A44649 /* FPSLocalAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB06D07197835F400A44649 /* FPSLocalAuthenticationTests.swift */; };
+		7BB06D121978378100A44649 /* ProtectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB06D111978378100A44649 /* ProtectedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		7BB06D01197835F400A44649 /* FPSLocalAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPSLocalAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB06D06197835F400A44649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BB06D07197835F400A44649 /* FPSLocalAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLocalAuthenticationTests.swift; sourceTree = "<group>"; };
+		7BB06D111978378100A44649 /* ProtectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				7BB06CF4197835F400A44649 /* AppDelegate.swift */,
 				7BB06CF6197835F400A44649 /* ViewController.swift */,
+				7BB06D111978378100A44649 /* ProtectedViewController.swift */,
 				7BB06CF8197835F400A44649 /* Main.storyboard */,
 				7BB06CFB197835F400A44649 /* Images.xcassets */,
 				7BB06CF2197835F400A44649 /* Supporting Files */,
@@ -210,6 +213,7 @@
 			files = (
 				7BB06CF7197835F400A44649 /* ViewController.swift in Sources */,
 				7BB06CF5197835F400A44649 /* AppDelegate.swift in Sources */,
+				7BB06D121978378100A44649 /* ProtectedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
