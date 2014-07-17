@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB06CF5197835F400A44649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB06CF4197835F400A44649 /* AppDelegate.swift */; };
+		7BB06CF7197835F400A44649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB06CF6197835F400A44649 /* ViewController.swift */; };
+		7BB06CFA197835F400A44649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB06CF8197835F400A44649 /* Main.storyboard */; };
+		7BB06CFC197835F400A44649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB06CFB197835F400A44649 /* Images.xcassets */; };
+		7BB06D08197835F400A44649 /* FPSLocalAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB06D07197835F400A44649 /* FPSLocalAuthenticationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB06D02197835F400A44649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB06CE7197835F300A44649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB06CEE197835F300A44649;
+			remoteInfo = FPSLocalAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BB06CEF197835F400A44649 /* FPSLocalAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPSLocalAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB06CF3197835F400A44649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB06CF4197835F400A44649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BB06CF6197835F400A44649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BB06CF9197835F400A44649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BB06CFB197835F400A44649 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BB06D01197835F400A44649 /* FPSLocalAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPSLocalAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB06D06197835F400A44649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB06D07197835F400A44649 /* FPSLocalAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLocalAuthenticationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB06CEC197835F300A44649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB06CFE197835F400A44649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB06CE6197835F300A44649 = {
+			isa = PBXGroup;
+			children = (
+				7BB06CF1197835F400A44649 /* FPSLocalAuthentication */,
+				7BB06D04197835F400A44649 /* FPSLocalAuthenticationTests */,
+				7BB06CF0197835F400A44649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB06CF0197835F400A44649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB06CEF197835F400A44649 /* FPSLocalAuthentication.app */,
+				7BB06D01197835F400A44649 /* FPSLocalAuthenticationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB06CF1197835F400A44649 /* FPSLocalAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				7BB06CF4197835F400A44649 /* AppDelegate.swift */,
+				7BB06CF6197835F400A44649 /* ViewController.swift */,
+				7BB06CF8197835F400A44649 /* Main.storyboard */,
+				7BB06CFB197835F400A44649 /* Images.xcassets */,
+				7BB06CF2197835F400A44649 /* Supporting Files */,
+			);
+			path = FPSLocalAuthentication;
+			sourceTree = "<group>";
+		};
+		7BB06CF2197835F400A44649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB06CF3197835F400A44649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BB06D04197835F400A44649 /* FPSLocalAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB06D07197835F400A44649 /* FPSLocalAuthenticationTests.swift */,
+				7BB06D05197835F400A44649 /* Supporting Files */,
+			);
+			path = FPSLocalAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		7BB06D05197835F400A44649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB06D06197835F400A44649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB06CEE197835F300A44649 /* FPSLocalAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB06D0B197835F400A44649 /* Build configuration list for PBXNativeTarget "FPSLocalAuthentication" */;
+			buildPhases = (
+				7BB06CEB197835F300A44649 /* Sources */,
+				7BB06CEC197835F300A44649 /* Frameworks */,
+				7BB06CED197835F300A44649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPSLocalAuthentication;
+			productName = FPSLocalAuthentication;
+			productReference = 7BB06CEF197835F400A44649 /* FPSLocalAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB06D00197835F400A44649 /* FPSLocalAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB06D0E197835F400A44649 /* Build configuration list for PBXNativeTarget "FPSLocalAuthenticationTests" */;
+			buildPhases = (
+				7BB06CFD197835F400A44649 /* Sources */,
+				7BB06CFE197835F400A44649 /* Frameworks */,
+				7BB06CFF197835F400A44649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB06D03197835F400A44649 /* PBXTargetDependency */,
+			);
+			name = FPSLocalAuthenticationTests;
+			productName = FPSLocalAuthenticationTests;
+			productReference = 7BB06D01197835F400A44649 /* FPSLocalAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB06CE7197835F300A44649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matt Ozer";
+				TargetAttributes = {
+					7BB06CEE197835F300A44649 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7BB06D00197835F400A44649 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7BB06CEE197835F300A44649;
+					};
+				};
+			};
+			buildConfigurationList = 7BB06CEA197835F300A44649 /* Build configuration list for PBXProject "FPSLocalAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB06CE6197835F300A44649;
+			productRefGroup = 7BB06CF0197835F400A44649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB06CEE197835F300A44649 /* FPSLocalAuthentication */,
+				7BB06D00197835F400A44649 /* FPSLocalAuthenticationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB06CED197835F300A44649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB06CFA197835F400A44649 /* Main.storyboard in Resources */,
+				7BB06CFC197835F400A44649 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB06CFF197835F400A44649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB06CEB197835F300A44649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB06CF7197835F400A44649 /* ViewController.swift in Sources */,
+				7BB06CF5197835F400A44649 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB06CFD197835F400A44649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB06D08197835F400A44649 /* FPSLocalAuthenticationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB06D03197835F400A44649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB06CEE197835F300A44649 /* FPSLocalAuthentication */;
+			targetProxy = 7BB06D02197835F400A44649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB06CF8197835F400A44649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB06CF9197835F400A44649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB06D09197835F400A44649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BB06D0A197835F400A44649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB06D0C197835F400A44649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FPSLocalAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BB06D0D197835F400A44649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FPSLocalAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BB06D0F197835F400A44649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FPSLocalAuthentication.app/FPSLocalAuthentication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FPSLocalAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		7BB06D10197835F400A44649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FPSLocalAuthentication.app/FPSLocalAuthentication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FPSLocalAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB06CEA197835F300A44649 /* Build configuration list for PBXProject "FPSLocalAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB06D09197835F400A44649 /* Debug */,
+				7BB06D0A197835F400A44649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB06D0B197835F400A44649 /* Build configuration list for PBXNativeTarget "FPSLocalAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB06D0C197835F400A44649 /* Debug */,
+				7BB06D0D197835F400A44649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BB06D0E197835F400A44649 /* Build configuration list for PBXNativeTarget "FPSLocalAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB06D0F197835F400A44649 /* Debug */,
+				7BB06D10197835F400A44649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB06CE7197835F300A44649 /* Project object */;
+}
